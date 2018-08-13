@@ -21,7 +21,7 @@ Python Script to automatically gather speedtest data from speedtest.net. Ping, D
 Install required packages:
 `pip install -r requirements.txt`
 
-Create a csv file with the headings `Date,Time,Ping,Download,Upload` or on the first run uncomment the writer.writeheader()
+Create a csv file with the headings `Date,Time,Ping,Download,Upload` or on the first run uncomment the `writer.writeheader()`
 
 Run:
 `python Main.py`
