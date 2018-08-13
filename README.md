@@ -13,7 +13,7 @@ Python Script to automatically gather speedtest data from speedtest.net. Ping, D
 
 - [ ] Implement a log file
 - [ ] Add command line arguments I.E run for a specific time, or store results in megabytes/bits
-- [ ] Implement a config file
+- [x] Implement a config file
 - [ ] General exception handling
 
 ## Installation
