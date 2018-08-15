@@ -6,15 +6,14 @@ Python Script to automatically gather speedtest data from speedtest.net. Ping, D
 
 ## Features:
 
-* Automatic, just run the script
-* Saves data in csv file for easy analysis
+* Automatic
+* Saves data in csv file for easy analysis via analysis.py
 
 ## TODO
 
 - [ ] Implement a log file
 - [ ] Add command line arguments I.E run for a specific time, or store results in megabytes/bits
 - [x] Implement a config file
-- [ ] General exception handling
 
 ## Installation
 
