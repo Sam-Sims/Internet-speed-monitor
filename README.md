@@ -8,12 +8,13 @@ Python Script to automatically gather speedtest data from speedtest.net. Ping, D
 
 * Automatic
 * Saves data in csv file for easy analysis via analysis.py
+* Plots a graph of download and upload speeds over the time period
 
 ## TODO
 
+- [x] Implement a config file
 - [ ] Implement a log file
 - [ ] Add command line arguments I.E run for a specific time, or store results in megabytes/bits
-- [x] Implement a config file
 
 ## Installation
 
@@ -24,6 +25,9 @@ Create a csv file with the headings `Date,Time,Ping,Download,Upload` or on the f
 
 Run:
 `python Main.py`
+
+Analysis:
+`python Analyse.py`
 
 ## Contact
 samsimss98@gmail.com
