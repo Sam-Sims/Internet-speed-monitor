@@ -1,7 +1,7 @@
 # Internet-speed-monitor
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
 
-Python program to run a speedtest on speedtest.net, and store the results in an easy to read CSV file.
+Python program to automatically run a speedtest on speedtest.net, and store the results in an easy to read CSV file.
 
 ## Main Features
 
@@ -36,4 +36,6 @@ Run the speedtest first to create the CSV files of the data, stored in speeds.cs
 Run the analyser to create the graph
 
 `python Analyse.py`
+
+A good idea is to use CRON or windows task scheduler to run the python script every x Minutes, to generate a lot of data to graph.
 
