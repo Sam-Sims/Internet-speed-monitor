@@ -29,9 +29,5 @@ Run:
 Analysis:
 `python Analyse.py`
 
-## Contact
-samsimss98@gmail.com
-
-
 
 
