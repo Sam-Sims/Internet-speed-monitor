@@ -1,33 +1,39 @@
-# Internet speed monitor
-
+# Internet-speed-monitor
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
 
-Python Script to automatically gather speedtest data from speedtest.net. Ping, Download Speed and Upload speed are fetched and stored in a csv file.
+Python program to run a speedtest on speedtest.net, and store the results in an easy to read CSV file.
 
-## Features:
+## Main Features
 
-* Automatic
-* Saves data in csv file for easy analysis via analysis.py
-* Plots a graph of download and upload speeds over the time period
+* Retrieves your current upload, download and ping from the offical speedtest.net servers.
+* Stores the data in a csv file.
+* Visulises the data, by plotting a graph of upload and download speed over time.
 
-## TODO
 
-- [x] Implement a config file
-- [ ] Implement a log file
-- [ ] Add command line arguments I.E run for a specific time, or store results in megabytes/bits
+## Installing
 
-## Installation
+Ensure Python 3.7 is installed and up to date.
 
-Install required packages:
-`pip install -r requirements.txt`
+Install dependencies.
 
-Create a csv file with the headings `Date,Time,Ping,Download,Upload` or on the first run uncomment the `writer.writeheader()`
+```
+pip install -r requirements.txt
+```
 
-Run:
+Decide what webdriver you want to use, either chrome or firefox.
+
+Firefox: https://github.com/mozilla/geckodriver/releases
+Chrome: http://chromedriver.chromium.org/downloads
+
+Fill in the config file to point the program to the installed webdriver.
+
+## Usage
+
+Run the speedtest first to create the CSV files of the data, stored in speeds.csv
+
 `python Main.py`
 
-Analysis:
+Run the analyser to create the graph
+
 `python Analyse.py`
-
-
 
